@@ -337,7 +337,6 @@ h3 {
     
     border-top: solid 1px #ccc;
     margin-bottom: 20px;
-
 }
 
 .haechan {
@@ -433,3 +432,7 @@ font-family: "Mitr", sans-serif;
   margin-top: 5px;
 }
 
+.footer1st {
+   border-top: solid 1px #ccc;
+    margin-top: 100px;
+}
