@@ -486,3 +486,11 @@ font-family: "Mitr", sans-serif;
     color: #333;
     margin-left: 100px;
 }
+
+.credit1 {
+    font-size: 10pt;
+    font-family: "Mitr", sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
