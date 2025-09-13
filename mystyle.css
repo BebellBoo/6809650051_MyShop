@@ -192,7 +192,7 @@ h3 {
     font-size: 16pt;
 }
 
-.Menu-Cake {
+.Menu-Cake a {
     font-family: "Mitr", sans-serif;
     font-weight: bold;
     font-size: 20pt;
@@ -204,9 +204,10 @@ h3 {
     display: inline-block;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
 }
 
-.Menu-Cake:hover {
+.Menu-Cake:hover a {
     background-color: #ffffff;
     color: #a11d1d;
     cursor: pointer;
