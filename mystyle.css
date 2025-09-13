@@ -479,3 +479,10 @@ font-family: "Mitr", sans-serif;
   transform: scale(1);
 }
 
+.Menu-Cake-back a {
+    font-family: "Mitr", sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+    color: #333;
+    margin-left: 100px;
+}
