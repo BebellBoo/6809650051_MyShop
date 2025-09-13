@@ -114,6 +114,27 @@ h3 {
     color: #600000;
 }
 
+.Menu-Macaron {
+    font-family: "Mitr", sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 25px;
+    color: #ffffff;
+    background-color: #a11d1d;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Menu-Macaron:hover {
+    background-color: #ffffff;
+    color: #a11d1d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
 .content-con {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -127,7 +148,6 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* ดันปุ่มลงล่าง */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -169,6 +189,27 @@ h3 {
     font-family: "Mitr", sans-serif;
     text-align: center;
     font-size: 16pt;
+}
+
+.Menu-Cake {
+    font-family: "Mitr", sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 25px;
+     margin-top: 60px;
+    color: #ffffff;
+    background-color: #a11d1d;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Menu-Cake:hover {
+    background-color: #ffffff;
+    color: #a11d1d;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .social-bar {
@@ -277,13 +318,12 @@ h3 {
 }
 
 .url {
-    text-align: center;
     padding-top: 300px;
-    font-size: 14px;
+    font-size: 8pt;
     font-family: "Mitr", sans-serif;
     margin: 0 5rem;
     display: flex;
-    margin-left: 270px;
+    margin-left: 160px;
     color: #333;
    
 }
