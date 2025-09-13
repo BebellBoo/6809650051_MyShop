@@ -128,7 +128,7 @@ h3 {
     text-decoration: none;
 }
 
-.Menu-Macaron a :hover {
+.Menu-Macaron:hover a {
     background-color: #ffffff;
     color: #a11d1d;
     cursor: pointer;
