@@ -358,7 +358,6 @@ h3 {
    color: #251510;
 }
 .speech-bubble::after {
-  content: "";
   position: absolute;
   right: -15px;
   top: 15px;
@@ -366,4 +365,68 @@ h3 {
   border-style: solid;
   border-color: #ffccd5 transparent;
   
+}
+
+.Menu-Macaron-back a {
+    font-family: "Mitr", sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+    color: #333;
+    margin-left: 100px;
+}
+
+.head-macaron {
+    font-family: "Pacifico", cursive;
+    font-size: 40pt;
+    color: #790000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu1stcategory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s;
+  
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+  font-size: 18pt;
+}
+
+.card p {
+  margin: 0;
+  color: #251510;
+font-family: "Mitr", sans-serif;
+    font-size: 12pt;
+}
+
+.card .sub {
+  display: block;
+ font-family: "Mitr", sans-serif;
+  font-size: 13pt;
+  color: #790000;
+  margin-top: 5px;
 }
