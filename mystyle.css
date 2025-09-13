@@ -114,7 +114,7 @@ h3 {
     color: #600000;
 }
 
-.Menu-Macaron {
+.Menu-Macaron a{
     font-family: "Mitr", sans-serif;
     font-weight: bold;
     font-size: 20pt;
@@ -125,9 +125,10 @@ h3 {
     display: inline-block;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
 }
 
-.Menu-Macaron:hover {
+.Menu-Macaron a :hover {
     background-color: #ffffff;
     color: #a11d1d;
     cursor: pointer;
